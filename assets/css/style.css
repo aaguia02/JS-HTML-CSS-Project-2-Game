@@ -1,0 +1,857 @@
+/******* wild card selector to override all default styles **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/********************************* Generic Project Styles **/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: rgb(27, 23, 23);
+  font-weight: 600;
+  font-family: "Cascadia Mono", sans-serif;
+  background-color: #eceeed;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  list-style-type: none;
+  text-decoration: none;
+  display: ;
+}
+
+p {
+  margin: auto;
+  padding: 0px 50px 5px 50px;
+  font-weight: 400;
+  width: fit-content;
+  display: flex;
+  position: sticky;
+  align-items: baseline;
+  max-width: 40rem;
+}
+
+/***************************************** Buttons **/
+
+.button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #9e8ec9;
+    box-shadow: 0 0 5px #9e8ec9;
+  }
+
+  50% {
+    background-color: #4b0082;
+    box-shadow: 0 0 20px #4b0082;
+  }
+
+  100% {
+    background-color: #1b82b1;
+    box-shadow: 0 0 5px #1b82b1;
+  }
+}
+
+.button {
+  animation: glowing 1300ms infinite;
+}
+
+/***************************************** Aside Panels **/
+
+.sidebar {
+  background-color: #116466;
+  color: #eceeed;
+
+  border-radius: 10px;
+  width: 100%;
+  max-width: 30%;
+
+  height: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+/**************************************** Sign-in Page */
+.sidebar1 {
+  background: url("../images/picardandco.jpeg") no-repeat center center/cover;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.sidebar2 {
+  background: url("../images/a\ href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg") no-repeat center center/cover;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+/************************************* Registration Page */
+.sidebar3 {
+  background: url("../images/space-theme-vintage-poster-design-with-illustration-spaceship.jpg") no-repeat center center/cover;
+  height: 55vw;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.sidebar4 {
+  background: url("../images/vintage-colored-mars-discovery-poster.jpg") no-repeat center center/cover;
+  height: 55vw;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+/************************************* Contact Page */
+.sidebar5 {
+  background: url("../images/spaceship-3758424_1280.jpg") no-repeat center center/cover;
+  max-height: 75vw;
+  min-height: 30vw;
+  margin-top: 20px;
+}
+
+.sidebar6 {
+  background: url("../images/spaceship-5138940_1280.jpg") no-repeat center center/cover;
+  max-height: 75vw;
+  min-height: 30vw;
+  margin-top: 20px;
+}
+
+/**************************************** events Page */
+.sidebar7 {
+  background: url("../images/merchandise.jpeg") no-repeat center center/cover;
+  height: 55vw;
+}
+
+.sidebar8 {
+  background: url("../images/star-wars-pexels-craig-adderley-3526022.jpg") no-repeat center center/cover;
+  height: 55vw;
+}
+
+/******************************************* Index Body **/
+
+.index-body {
+  background: url("../images/alien\ landing.gif") no-repeat center center/cover;
+  min-height: 100vh;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: rgb(27, 23, 23);
+  align-content: center;
+}
+
+audio {
+  opacity: 10%;
+  text-decoration: none;
+}
+}
+
+audio:hover {
+  opacity: 50%;
+}
+
+/**************************************** Foreground Text **/
+
+.text-audio {
+  text-align: center;
+}
+
+.index-text {
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+#image-text {
+  font-size: 2em;
+  text-shadow: 30px 30px 15px #000000;
+  z-index: 99;
+}
+
+.blink_text {
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/********************************************* Header **/
+
+header {
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 600;
+  background-color: #116466;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.75em;
+  color: #eceeed;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  text-shadow: 10px 10px 5px #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #eceeed;
+}
+
+/******************************************** Nav Menu **/
+
+#menu {
+  font-size: 130%;
+  letter-spacing: 2px;
+  list-style-type: none;
+}
+
+#menu>li {
+  margin-bottom: 2em;
+}
+
+/******************************* Nav Sub-menu dropdown **/
+
+.sub-menu {
+  list-style-type: none;
+}
+
+.dropbtn {
+  margin-right: 15px;
+  padding: 8px 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  padding-top: 0.25em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #116466;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: smaller;
+}
+
+.dropdown-content a {
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/******************* Navbar styles with dropdown toggle */
+
+nav {
+  position: absolute;
+  background-color: #116466 WindowFrame;
+  width: 100%;
+  color: #eceeed;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px silver;
+  display: none;
+  top: 100%;
+}
+
+/***************************************** Nav toggle **/
+
+#nav-toggle:checked~nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 1.6rem;
+}
+
+#logo {
+  font-size: 1.4375em;
+  line-height: 75px;
+  margin: 0 0.5rem;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*************************************** Main Content **/
+
+main {
+  /*******Make main element take up any surplus space **/
+  flex: 1 0 auto;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+/***************************************** Hero section */
+
+#hero {
+  background: url("../images/JHGY.gif") no-repeat center center/cover;
+  height: 350px;
+  width: 100%;
+}
+
+#container {
+  list-style-type: none;
+  display: flex;
+}
+
+#container2 {
+  background-color: #eceeed;
+  height: 100%;
+  width: 50%;
+  
+}
+
+#container3 {
+  background-color: #eceeed;
+  height: 100%;
+  width: 50%;
+  padding-top: 25px
+}
+
+/****************************** Sign-in and Sign-up Page */
+
+#signupin {
+  align-content: center;
+  text-align: center;
+}
+
+button#toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /**************** Media query isn't shown here. */
+  font-size: var(--mobile-font-size);
+  font-weight: 300;
+  padding: 0;
+  /***** Display at the top right of the container */
+  position: absolute;
+}
+
+#password-reset {
+  font-size: xx-small;
+  color: #e8e7e7;
+  background-color: gray;
+  border: #d7cece5b solid;
+  margin: 2px;
+  padding: 3px;
+  align-content: center;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+
+#registerhere {
+  max-width: 29px;
+  min-width: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rememberme {
+  cursor: pointer;
+  flex-direction: row;
+  font-size: 1px;
+  row-gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  text-align: right;
+  height: 5%;
+  width: 5%;
+}
+
+.rememberme2 {
+  flex-direction: row;
+  font-size: 15px;
+  row-gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  text-align: right;
+}
+
+#contactsignin {
+  color: rgb(27, 23, 23);
+  width: 50px;
+  padding: 5px;
+  align-content: center;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border: groove rgb(27, 23, 23);
+}
+
+.submit {
+  color: #e8e7e7;
+  background-color: rgb(29, 4, 4);
+  border: rgba(28, 37, 31, 0.355) 1px solid;
+  margin: 5px;
+  width: 50px;
+  padding: 5px;
+  align-content: center;
+  overflow: hidden;
+  text-align: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/**************************************** Registration Form */
+
+.contactme2 {
+  margin: 1em auto;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0px 100px 0px 100px;
+  text-align: left;
+  font-weight: 400;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+fieldset {
+  border: none;
+  padding: 8px;
+  width: 100%;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+#fieldset2 {
+  padding: 0 5px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+#referrer,
+input,
+textarea {
+  background-color: #d1d1d3;
+  border: 1px solid #0a0a23;
+  color: #0e0404;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"].inputsubmit {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #82828d;
+  border: groove rgb(27, 23, 23);
+  min-width: 300px;
+  border-radius: 10px;
+  color: rgb(27, 23, 23);
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+/********************************************** events Page */
+
+table {
+  display: table;
+  position: sticky;
+}
+
+#table1 {
+  width: 100%;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+th {
+  font-weight: normal;
+  border-top: thin solid black;
+}
+
+td {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.4;
+  border-radius: 0.2rem;
+  transition: opacity 0.3s ease;
+}
+
+td>span {
+  font-size: 0.8em;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+}
+
+.stage-earth {
+  background-color: #6fa07b;
+}
+
+.stage-mercury {
+  background-color: #9ccc65;
+}
+
+.stage-venus {
+  background-color: #a4edb6;
+}
+
+.stage-mars {
+  background-color: #b3e5fc;
+}
+
+.stage-jupiter {
+  background-color: #81d4fa;
+}
+
+.stage-saturn {
+  background-color: #26c6da;
+}
+
+.stage-moon {
+  background-color: #89c698;
+}
+
+.stage-comet {
+  background-color: #8eb6c9;
+}
+
+.leftHeader {
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+th {
+  background-color: lightgray;
+}
+
+/*********************************** T&C and Privacy Policy */
+
+.h2dec {
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: "§  " !important;
+  font-size: 14px;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+#termsandprivacy {
+  padding: 40px;
+  overflow: hidden;
+  text-align: left;
+  list-style-type: none;
+}
+
+#termsandprivacy>h2 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: left;
+  list-style-type: none;
+}
+
+.termsandconditions {
+  list-style-type: none;
+}
+
+/******************************************* Gallery Page */
+#photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+/**************************************** Contact Me Page **/
+
+#termsandprivacy {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+.contactme3 {
+  padding: 0%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/****************************************** Footer **/
+
+footer {
+  background-color: #116466;
+  width: 100%;
+  height: 100%;
+}
+
+#pfooter {
+  font-size: 15px;
+  text-align: center;
+  background-color: #116466;
+  padding: 0;
+  color: #eceeed;
+  height: 100%;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: #116466;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #eceeed;
+  background-color: #116466;
+}
+
+/********************* Extra small devices (phones, 576px and down)  */
+@media screen and (max-width: 767px) {
+
+  /*********************** sidebars */
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #container>div {
+    flex: 1;
+    width: 150%;
+  }
+
+  .sidebar3 {
+    height: 100vw;
+  }
+
+  .sidebar4 {
+
+    height: 100vw;
+  }
+
+  .sidebar {
+    background-color: #116466;
+    color: #eceeed;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+    height: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+
+}
+
+/******** Media query: tablets and larger (768px and up to 991px) */
+
+@media screen and (max-width: 768px) {
+
+  /************************************************** Gallery*/
+  #photos {
+    column-count: 3;
+  }
+
+  table {
+    display: table;
+    position: static;
+    max-width: 150px;
+    max-height: 55px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+}
+
+/**** Large devices (laptops and desktops, 992px and up to 1199px) */
+
+@media screen and (min-width: 992px) {
+
+  /*********************** nav bar */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-left: 1rem;
+    color: #eceeed;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu>li {
+    padding-right: 1rem;
+    list-style-type: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  /*********************** Gallery */
+  #photos {
+    column-count: 4;
+  }
+
+  table {
+    display: table;
+    position: static;
+    max-width: 150px;
+    max-height: 55px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+}
+
+/**** Large devices (laptops and desktops, 1200px and up) */
+
+@media screen (min-width: 1200px) {
+
+  /*********************** nav bar */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-left: 1rem;
+    color: #eceeed;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu>li {
+    padding-right: 1rem;
+    list-style-type: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+}

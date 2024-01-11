@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for search engines -->
+    <meta
+      name="description"
+      content="website for fans of science fiction, sci-fi, hobby, London, "
+    />
+    <meta name="keywords" content="science fiction, sci-fi, hobby, London" />
+    <!-- Title -->
+    <title>Contact Me</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!------------------------------------------------------- Header and Nav -->
+    <header>
+      <a href="index.html">
+        <h1 id="logo">My Sci-fi Space</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" /><label
+        for="nav-toggle"
+        class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <div class="dropdown">
+            <li class="dropbtn"><a href="home.html" class="active">Home</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="events.html">Fun</a>
+              <div class="dropdown-content">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="events.html"> Events </a>
+                  </li>
+                  <li>
+                    <a href="index-game.html"> Quiz </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </div>
+
+          <div class="dropdown">
+            <li class="dropbtn"><a href="gallery.html">Gallery</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="signin.html">Sign-in</a>
+              <div class="dropdown-content">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="registration-form.html"> Registration Form</a>
+                  </li>
+                  <li>
+                    <a href="termsandconditions.html"> Terms and Conditions</a>
+                  </li>
+                  <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn"><a href="contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <!------------------------------------------------------- Main Content -->
+    <main>
+      <section id="hero"></section>
+
+      <div id="container">
+        <aside class="sidebar sidebar5"></aside>
+
+        <section id="signupin">
+          <h1>Contact Me</h1>
+          <br />
+          <p>
+            Liked my mock website project? Interested in working together? Fill
+            out the form below with some information about your project and
+            let's talk about it. Please allow me a day to reply.
+          </p>
+
+          <section class="signin">
+            <h2 class="">About me:</h2>
+            <br />
+            <ul>
+              <p>Based in London, UK.</p>
+              <p>
+                Easy going, professional, open minded, introvert, so I like to
+                think of myself.
+              </p>
+              <p>
+                Currently studying on the Code Institute's full-stack web
+                development bootcamp at WAES Academy in London, UK. And I am
+                looking to put in practice what I am learning, getting involved
+                in projects.
+              </p>
+            </ul>
+            <br />
+            <div>
+              <form action="https://formdump.codeinstitute.net" method="post">
+                <dl>
+                  <dt>Enter Your Email:</dt>
+                  <dd>
+                    <input
+                      type="email"
+                      class="contactme3"
+                      id="email"
+                      name="email"
+                      required="required"
+                      placeholder="Enter your email address ..."
+                    />
+                  </dd>
+                  <dt>Enter Your Name:</dt>
+                  <dd>
+                    <input
+                      type="text"
+                      class="contactme3"
+                      id="fullname"
+                      name="fullname"
+                      required="required"
+                      placeholder="Enter your name ..."
+                    />
+                  </dd>
+                  <dt>Lets Talk about you:</dt>
+                  <dd>
+                    <textarea
+                      class="contactme3"
+                      id="message"
+                      name="message"
+                      required="required"
+                      rows="3"
+                      cols="30"
+                      placeholder="Enter your message, what is your project, budget, timeframe, etc ..."
+                    ></textarea>
+                  </dd>
+                </dl>
+
+                <input
+                  type="submit"
+                  class="inputsubmit button"
+                  id="contactsignin"
+                  value="Engage!"
+                />
+              </form>
+            </div>
+          </section>
+
+          <br /><br />
+        </section>
+
+        <aside class="sidebar sidebar6"></aside>
+      </div>
+    </main>
+
+    <!--------------------------------------------------------- Footer -->
+    <footer>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in new tab)"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Linkedin page (opens in new tab)"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.Instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p id="pfooter">© All Rights Reserved 2023. Made in London, UK</p>
+    </footer>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/79bb26ca76.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
