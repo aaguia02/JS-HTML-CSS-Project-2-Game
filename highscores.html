@@ -21,10 +21,71 @@
     <!-- Stylesheet  -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>High Scores</title>
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="highscores.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/highscores.css" />
   </head>
   <body>
+    <!-- Header and Nav -->
+    <header>
+      <a href="index.html">
+        <h1 id="logo" class="">My Sci-fi Space</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" /><label
+        for="nav-toggle"
+        class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="home.html" class="active">Home</a>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="events.html">Fun</a>
+              <div class="dropdown-content">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="events.html"> Events </a>
+                  </li>
+                  <li>
+                    <a href="index-game.html"> Quiz </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </div>
+
+          <div class="dropdown">
+            <li class="dropbtn"><a href="gallery.html">Gallery</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="signin.html">Sign-in</a>
+              <div class="dropdown-content">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="registration-form.html"> Registration Form</a>
+                  </li>
+                  <li>
+                    <a href="termsandconditions.html"> Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn"><a href="contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Content -->
     <div class="container">
       <div id="highScores" class="flex-center flex-column">
         <h1 id="finalScore">High Scores</h1>
@@ -32,7 +93,7 @@
         <a class="btn" href="index-game.html">Go Game</a>
       </div>
     </div>
-        <!-- Footer -->
+    <!-- Footer -->
     <footer>
       <ul id="social-networks">
         <li>
@@ -79,6 +140,6 @@
       src="https://kit.fontawesome.com/79bb26ca76.js"
       crossorigin="anonymous"
     ></script>
-    <script src="highscores.js"></script>
+    <script src="assets/JS/highscores.js"></script>
   </body>
 </html>
