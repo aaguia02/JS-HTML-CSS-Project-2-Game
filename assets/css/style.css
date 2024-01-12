@@ -359,6 +359,9 @@ main {
 #container {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
 }
 
 #container2 {
@@ -546,9 +549,13 @@ input[type="file"] {
 
 /********************************************** events Page */
 
-table {
+table thead th td {
   display: table;
+  table-layout: fixed;
   position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #table1 {
@@ -556,7 +563,7 @@ table {
   max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 th,
@@ -771,16 +778,6 @@ footer {
     column-count: 3;
   }
 
-  table {
-    display: table;
-    position: static;
-    max-width: 150px;
-    max-height: 55px;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
 }
 
 /**** Large devices (laptops and desktops, 992px and up to 1199px) */
@@ -815,16 +812,6 @@ footer {
     column-count: 4;
   }
 
-  table {
-    display: table;
-    position: static;
-    max-width: 150px;
-    max-height: 55px;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-  }
 }
 
 /**** Large devices (laptops and desktops, 1200px and up) */
