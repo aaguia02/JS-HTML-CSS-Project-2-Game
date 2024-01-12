@@ -295,7 +295,7 @@ header a {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block;t -m 0.3s ease-in-out;
 }
 
 .dropdown:hover .dropbtn {
