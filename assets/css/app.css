@@ -8,8 +8,12 @@
     font-family: "Cascadia Mono", sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #f3f7f8;
 }
+
+#bk-img-index-game {
+  background: url("/assets/images/alien shoots guns.gif")  no-repeat center center/cover;
+ }
 
 h1,
 h2,
@@ -20,7 +24,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #28e577;
+  color: white
  }
 
 h1 > span {
@@ -30,7 +34,6 @@ h1 > span {
 
 h2 {
   font-size: 4.2rem;
-
   font-weight: 700;
 }
 

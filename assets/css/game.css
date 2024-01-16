@@ -1,10 +1,14 @@
+body {
+  background: url("/assets/images/a href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg") no-repeat center center/cover;
+}
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.5rem;
   border: 0.1rem solid rgb(86, 165, 235, 0.25);
-  background-color: white;
+  background-color: rgba(144, 140, 136, 0.472);
 }
 
 .choice-container:hover {

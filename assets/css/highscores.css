@@ -1,3 +1,10 @@
+body {
+  background: url("/assets/images/alien-1295093_1280.png") no-repeat center center/cover;
+  background-color: grey;
+}
+
+
+
 #highScoresList {
   list-style: none;
   padding-left: 0;
