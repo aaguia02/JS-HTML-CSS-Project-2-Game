@@ -27,7 +27,6 @@ h1, h2 {
   margin-bottom: 0.5em;
   list-style-type: none;
   text-decoration: none;
-  display: ;
 }
 
 p {
@@ -171,7 +170,7 @@ audio {
   opacity: 10%;
   text-decoration: none;
 }
-}
+
 
 audio:hover {
   opacity: 50%;
@@ -819,7 +818,7 @@ footer {
 @media screen (min-width: 1200px) {
 
   /*********************** nav bar */
-  nav {
+  nav{
     display: block;
     position: relative;
     box-shadow: none;
@@ -841,4 +840,3 @@ footer {
     display: none;
   }
 
-}
