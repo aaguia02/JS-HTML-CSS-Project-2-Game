@@ -83,11 +83,9 @@ p {
 .sidebar {
   background-color: #116466;
   color: #eceeed;
-
   border-radius: 10px;
   width: 100%;
   max-width: 30%;
-
   height: 100%;
   min-height: 250px;
   display: flex;

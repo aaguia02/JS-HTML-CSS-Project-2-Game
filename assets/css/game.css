@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: url("../images/a href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg") no-repeat center center/cover;
+  background: url("../images/a href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg")
+    no-repeat center center/cover;
+  height: 100hv;
+  width: 100wv;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Cascadia Mono", sans-serif;
+  font-size: 62.5%;
 }
 
 .choice-container {
@@ -57,7 +71,7 @@ body {
   width: 20rem;
   height: 4rem;
   border: 0.3rem solid #28bb18;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 #progressBarFull {
@@ -82,5 +96,24 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/********************* Extra small devices (phones, 767px and down)  */
+@media screen and (max-width: 767px) {
+  /*********************** sidebars */
+  .container-game {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #question {
+    font-size: 2.5rem;
+  }
+
+  .choice-container {
+    font-size: 2rem;
   }
 }

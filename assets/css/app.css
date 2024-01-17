@@ -44,10 +44,11 @@ h3 {
 
 /* UTILITIES */
 
-.container {
+.container-game {
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 80rem;
@@ -55,7 +56,7 @@ h3 {
   padding: 2rem;
 }
 
-.container > * {
+.container-game > * {
   width: 100%;
 }
 
