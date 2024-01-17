@@ -1,3 +1,9 @@
 body {
     background: url("../images/3d-hyperspace-background-with-warp-tunnel-effect.jpg")  no-repeat center center/cover;;
 }
+
+.finalScore {
+    font-size: 8rem;
+    color: #64fb4d;
+    text-align: center;
+}
